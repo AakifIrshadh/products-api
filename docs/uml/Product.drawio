@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="xjxAfJ-FIAck_-bx0zPs">
+    <mxGraphModel dx="1030" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+          <mxGeometry height="40" width="250" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-2" edge="1" parent="1" source="PHc6cKRPEf4zmv_ZNEdE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="- id: Long&lt;div&gt;-name: String&lt;/div&gt;&lt;div&gt;-price: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp; &amp;nbsp;Product()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+ Product(id: Long, name: String, price: double)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+&amp;nbsp; &amp;nbsp;getId(): Long&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+&amp;nbsp; &amp;nbsp;getName: String&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+ getPrice(): double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="250" x="240" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
