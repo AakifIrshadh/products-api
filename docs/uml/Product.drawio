@@ -1,22 +1,45 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="xjxAfJ-FIAck_-bx0zPs">
-    <mxGraphModel dx="1030" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1144" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PHc6cKRPEf4zmv_ZNEdE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
-          <mxGeometry height="40" width="250" x="240" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-2" edge="1" parent="1" source="PHc6cKRPEf4zmv_ZNEdE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="205" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="40" width="250" x="80" y="80" as="geometry" />
         </mxCell>
         <mxCell id="PHc6cKRPEf4zmv_ZNEdE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="- id: Long&lt;div&gt;-name: String&lt;/div&gt;&lt;div&gt;-price: double&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="250" x="240" y="160" as="geometry" />
+          <mxGeometry height="90" width="250" x="80" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp; &amp;nbsp;Product()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+ Product(id: Long, name: String, price: double)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+&amp;nbsp; &amp;nbsp;getId(): Long&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+&amp;nbsp; &amp;nbsp;getName: String&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;+ getPrice(): double&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="250" x="240" y="250" as="geometry" />
+        <mxCell id="PHc6cKRPEf4zmv_ZNEdE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ getId() : Long&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getName : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getPrice() : double&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ setId(id : Long) : void&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ setName(name : String) : void&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ setPrice(price : double) : void&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="250" x="80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ProductService&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="570" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- products : List&amp;lt;Product&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- nextId : Long&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="570" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ getAllProducts() : List &amp;lt;Product&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getProductById(id: Long) : Optional&amp;lt;Product &amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ addProduct(product : Product) : Product&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ deleteProduct(id : Long) : void&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ findByName(name : String) : List&amp;lt;Product&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="270" x="570" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-4" edge="1" parent="1" source="9HFDekED1zg7f9msLmRo-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;entryX=1.015;entryY=0.33;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" target="PHc6cKRPEf4zmv_ZNEdE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ProductControlle&lt;/font&gt;r&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="280" x="565" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- productService : ProductService&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="565" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ getAllProducts() : List&amp;lt;Product&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getProductById(id : Long) : Product&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ addProduct(product : Product) : Product&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ deleteProduct(id : Long) : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="565" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="9HFDekED1zg7f9msLmRo-8" edge="1" parent="1" source="9HFDekED1zg7f9msLmRo-5" style="endArrow=classic;dashed=1;html=1;rounded=0;endFill=1;entryX=0.444;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4667" as="geometry">
+            <Array as="points" />
+            <mxPoint x="704.5" y="450" as="sourcePoint" />
+            <mxPoint x="704.5" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

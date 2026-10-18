@@ -1,30 +1,43 @@
+
 package uk.ac.westminster.products_api;
 
 public class Product {
-    private Long id; //access modifier: private
-    private String name; //access modifier:
-    private double price; //access modifier:
 
-    //constructor 1
-    public Product() {}
+    private Long id;
+    private String name;
+    private double price;
 
-    //constructor 2 with 3 parameters
+    public Product() {
+    }
+
+
     public Product(Long id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
-
     }
-    public Long getId(){
-        return this.id;
+
+    public Long getId() {
+        return id;
     }
 
     public String getName() {
-      return this.name;
+        return name;
     }
 
     public double getPrice() {
-        return this.price;
+        return price;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
