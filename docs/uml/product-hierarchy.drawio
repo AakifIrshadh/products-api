@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IGqDRpH-PG_B7SvOPq5D">
+    <mxGraphModel dx="1030" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Product&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- id : Long&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- name : String&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- price : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ getId() : Long&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ getName() : String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getPrice() : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DigitalProduct&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="540" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="- downloadUrl : String&lt;div&gt;- fileSizeMB : double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="540" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ getDownloadUrl() : String&lt;div&gt;+ getfileSizeMB() : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="540" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PhysicalProduct" vertex="1">
+          <mxGeometry height="40" width="210" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="- weightKg : double&lt;div&gt;- dimensions : String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="210" x="80" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ getWeightKg() : double&lt;div&gt;+ getDimension : String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-12" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;direction=north;" value="" vertex="1">
+          <mxGeometry height="30" width="40" x="170" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-13" edge="1" parent="1" source="4EG9Euqy-LkCY16wlOJt-7" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.535;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" target="4EG9Euqy-LkCY16wlOJt-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="440" as="sourcePoint" />
+            <mxPoint x="230" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-14" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;direction=west;" value="" vertex="1">
+          <mxGeometry height="50" width="40" x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4EG9Euqy-LkCY16wlOJt-15" edge="1" parent="1" source="4EG9Euqy-LkCY16wlOJt-14" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;" target="4EG9Euqy-LkCY16wlOJt-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="190" as="sourcePoint" />
+            <mxPoint x="460" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
